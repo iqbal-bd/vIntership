@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using EcommerceWebsite.Models;
 
 namespace EcommerceWebsite.Data
 {
@@ -9,5 +10,6 @@ namespace EcommerceWebsite.Data
             : base(options)
         {
         }
+        public DbSet<ProductTypes>ProductTypes { get; set; }
     }
 }
