@@ -1,0 +1,44 @@
+﻿@page
+@model StudentRegistration.Pages.Students.IndexModel
+@{
+}
+<br />
+<h1>Register Students information</h1>
+<a class = 'btn btn-secondary btn-sm' href="/Students/Create">New Registration</a>
+<table class="table">
+    <thread>
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>FullName</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </thread>
+
+    <tbody>
+
+        @foreach(var item in Model.listStudents)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.FullName</td>
+                <td>@item.Password</td>
+                <td>@item.Email</td>
+                <td>@item.Phone</td>
+                <td>@item.Address</td>
+               
+                <td>
+                    <a class="btn btn-success" href="/Students/Edit?id=@item.id">Edit</a>
+                    <a class="btn btn-danger" href="/Students/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,76 @@
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\appsettings.Development.json
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\appsettings.json
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.staticwebassets.runtime.json
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.exe
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.deps.json
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.runtimeconfig.json
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.dll
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.pdb
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\projects\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.csproj.AssemblyReference.cache
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.AssemblyInfoInputs.cache
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.AssemblyInfo.cs
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.csproj.CoreCompileInputs.cache
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.MvcApplicationPartsAssemblyInfo.cache
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.RazorAssemblyInfo.cache
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.RazorAssemblyInfo.cs
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.StudentRegistration.Microsoft.AspNetCore.StaticWebAssets.props
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.build.StudentRegistration.props
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StudentRegistration.props
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StudentRegistration.props
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets.pack.json
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets.build.json
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets.development.json
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\scopedcss\bundle\StudentRegistration.styles.css
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\scopedcss\projectbundle\StudentRegistration.bundle.scp.css
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.csproj.CopyComplete
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.dll
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\refint\StudentRegistration.dll
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.pdb
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.genruntimeconfig.cache
+D:\projects\StudentRegistration\StudentRegistration\obj\Debug\net6.0\ref\StudentRegistration.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\appsettings.Development.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\appsettings.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.staticwebassets.runtime.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.exe
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.deps.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.runtimeconfig.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\StudentRegistration.pdb
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.csproj.AssemblyReference.cache
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.GeneratedMSBuildEditorConfig.editorconfig
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.AssemblyInfoInputs.cache
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.AssemblyInfo.cs
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.csproj.CoreCompileInputs.cache
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.MvcApplicationPartsAssemblyInfo.cache
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.RazorAssemblyInfo.cache
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.RazorAssemblyInfo.cs
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.StudentRegistration.Microsoft.AspNetCore.StaticWebAssets.props
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.build.StudentRegistration.props
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StudentRegistration.props
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StudentRegistration.props
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets.pack.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets.build.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\staticwebassets.development.json
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\scopedcss\bundle\StudentRegistration.styles.css
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\scopedcss\projectbundle\StudentRegistration.bundle.scp.css
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.csproj.CopyComplete
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\refint\StudentRegistration.dll
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.pdb
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\StudentRegistration.genruntimeconfig.cache
+D:\vIntership\Task-1 & Task-2\StudentRegistration\StudentRegistration\obj\Debug\net6.0\ref\StudentRegistration.dll
