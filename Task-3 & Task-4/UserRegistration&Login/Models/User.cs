@@ -11,6 +11,7 @@ namespace UserRegistration_Login.Models
         public string FullName { get; set; }
         public string Email { get; set; }
         public string District { get; set; }
+        public string PostCode { get; set; }
         public string Division { get; set; }
 
     }
