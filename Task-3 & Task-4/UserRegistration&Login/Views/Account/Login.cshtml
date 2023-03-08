@@ -1,0 +1,38 @@
+﻿@model UserRegistration_Login.Models.ViewModel.Login_SignUp
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3 border border-secondary rounded p-4">
+            <div class="text-center">
+                <a class="text-black btn btn-warning fw-bold" asp-action="SignUP" asp-controller="Account">SignUP</a>
+            </div>
+            <form method="post" asp-action="Login">
+                <div class="form-group m-2 p-2">
+                    <label asp-for="UserName"></label>
+                    <input type="text" asp-for="UserName" placeholder="user name" class="form-control" autocomplete="off" />
+                </div>
+                <div class="form-group m-2 p-2">
+                    <label asp-for="Password"></label>
+                    <input type="text" asp-for="Password" placeholder="password" class="form-control" autocomplete="off" />
+                </div>
+                <div class="form-group m-2 p-2">
+                    <input type="checkbox" asp-for="IsRemember"/>
+                    <label asp-for="IsRemember"></label>
+                </div>
+                <div class="form-group text-center mb-3">
+                    <input type="submit" class="btn btn-success btn-lg mb-1 mt-3" value="Login" />
+                </div>
+            </form>
+            <div class="text-center">
+                <a class="text-primary m-2 p-4" asp-action="ForgotUsername">Forgot Username..?</a>
+                <a class="text-primary m-2 p-4" asp-action="ForgotPassword">Forgot Password..?</a>
+            </div>
+        </div>
+    </div>
+</div>
+
