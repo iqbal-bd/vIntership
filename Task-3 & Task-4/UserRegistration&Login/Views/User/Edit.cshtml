@@ -1,5 +1,4 @@
-﻿
-@model UserRegistration_Login.Models.User
+﻿@model UserRegistration_Login.Models.User
 
 @{
 }
@@ -10,55 +9,48 @@
         <div class="col-6 offset-3">
             <div class="card">
                 <div class="card-header">
-                    <h1 class="text-center text-info fw-bold ">New User Portal</h1>
-                    <p class="text-danger">@TempData["message"]</p>
+                    <h1 class="text-center text-warning fw-bold ">Edit User</h1>
                 </div>
                 <div class="card-body">
-                    <form method="post" asp-action="Create">
+                    <form method="post" asp-action="Edit">
                         <div class="row">
                             <div class="col">
                                 <label class="text-black fs-4" asp-for="FirstName">First Name</label>
+                                <input type="hidden" asp-for="ID"/>
                                 <input type="text" asp-for="FirstName" class="form-control" placeholder="First name" aria-label="First name">
-                                <span asp-validation-for="FirstName" class="text-warning"></span>
                             </div>
                             <div class="col">
                                 <label class="text-black fs-4" asp-for="LastName">Last Name</label>
                                 <input type="text" asp-for="LastName" class="form-control" placeholder="Last name" aria-label="Last name">
-                                <span asp-validation-for="LastName" class="text-warning"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="text-black fs-4" asp-for="FullName">Full Name</label>
                             <input type="text" asp-for="FullName" class="form-control" placeholder="Full Name" />
-                            <span asp-validation-for="FullName" class="text-warning"></span>
                         </div>
                         <div class="form-group">
                             <label class="text-black fs-4" asp-for="Email">Email</label>
                             <input type="text" asp-for="Email" class="form-control" placeholder="email address" />
-                            <span asp-validation-for="Email" class="text-warning"></span>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <label class="text-black fs-4" asp-for="District">District</label>
                                 <input type="text" asp-for="District" class="form-control" placeholder="District" aria-label="District">
-                                <span asp-validation-for="District" class="text-warning"></span>
                             </div>
                             <div class="col">
                                 <label class="text-black fs-4" asp-for="PostCode">Post Code</label>
                                 <input type="text" asp-for="PostCode" class="form-control" placeholder="Post Code" aria-label="Post Code">
-                                <span asp-validation-for="PostCode" class="text-warning"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="text-black fs-4" asp-for="Division">Division</label>
                             <input type="text" asp-for="Division" class="form-control" placeholder="Division" />
-                            <span asp-validation-for="Division" class="text-warning"></span>
                         </div>
 
                         <div class="form-group d-grid gap-2 col-4 mx-auto mt-3">
-                            <input type="submit" value="Submit" class="btn btn-sm btn-outline-success fw-bold fs-3"/>
+                            <input type="submit" value="Submit" class="btn btn-sm btn-outline-success fw-bold fs-3" />
                         </div>
-                        
+
                     </form>
                 </div>
             </div>

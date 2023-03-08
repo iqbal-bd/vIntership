@@ -4,9 +4,10 @@
 <br />
 <div class ="container">
     <div class="row">
-        <div class="col-8 offset-2">
-            <h1 class="text-center text-success ">User Record</h1>
-            <a class="btn btn-sm btn-secondary text-white m-2" asp-controller="User" asp-action="Create">Add New User</a>
+        <div class="col-8 offset-1">
+            <h1 class="text-center text-primary ">User Record</h1>
+            <a class="btn btn-sm btn-success text-white m-2" asp-controller="User" asp-action="Create">Add New User</a>
+            <p class="text-center text-success fs-3">@TempData["error"]</p>
             <table class="table table-bordered">
                 <tr class="text-center">
                     <th>UserID</th>
@@ -17,6 +18,7 @@
                     <th>District</th>
                     <th>PostCode</th>
                     <th>Division</th>
+                    <th>Action</th>
                 </tr>
                 @foreach(var item in Model)
                 {
@@ -29,6 +31,12 @@
                         <td>@item.District</td>
                         <td>@item.PostCode</td>
                         <td>@item.Division</td>
+                        <td>
+                            <a class="btn btn-sm btn-success" asp-controller="User" asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-danger" asp-controller="User" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                        </td>
                     </tr>
                 }
             </table>
