@@ -1,0 +1,14 @@
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\bin\Debug\net7.0\OA.DATA.deps.json
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\bin\Debug\net7.0\OA.DATA.runtimeconfig.json
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\bin\Debug\net7.0\OA.DATA.dll
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\bin\Debug\net7.0\OA.DATA.pdb
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.csproj.AssemblyReference.cache
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.GeneratedMSBuildEditorConfig.editorconfig
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.AssemblyInfoInputs.cache
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.AssemblyInfo.cs
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.csproj.CoreCompileInputs.cache
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.dll
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\refint\OA.DATA.dll
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.pdb
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\OA.DATA.genruntimeconfig.cache
+D:\vIntership\Onion Architecture Asp.net core mvc Project\Onion Architecture\OA.DATA\obj\Debug\net7.0\ref\OA.DATA.dll
