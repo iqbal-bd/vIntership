@@ -1,4 +1,7 @@
-using UserRegistration_Login.Data;
+
+
+using InventoryManagementSystem.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
