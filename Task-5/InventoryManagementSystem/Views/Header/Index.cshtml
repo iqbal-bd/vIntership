@@ -3,7 +3,6 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
 <br />
 <div class="container">
@@ -33,6 +32,7 @@
                         <td>@item.EntryBy</td>
                         <td>@item.EntryDate</td>
                         <td>@item.Remark</td>
+
 
                         <td>
                             <a class="btn btn-sm btn-success" asp-controller="Header" asp-action="Edit" asp-route-id="@item.PurchaseId">Edit</a>

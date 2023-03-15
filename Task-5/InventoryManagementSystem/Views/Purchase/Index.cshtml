@@ -1,0 +1,42 @@
+﻿@model IEnumerable<InventoryManagementSystem.Models.Detail>
+
+
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-1">
+            <h1 class="text-center text-primary ">User Record</h1>
+            <a class="btn btn-sm btn-success text-white m-2" asp-controller="Purchase" asp-action="CreatePurchase">Purchase Menu</a>
+            <p class="text-center text-success fs-3">@TempData["error"]</p>
+            <table class="table table-bordered">
+                <tr class="text-center">
+                    <th>PurchaseId</th>
+                    <th>ItemCode</th>
+                    <th>ItemQty</th>
+                    <th>ItemUnitId</th>
+                    <th>ItemRate</th>
+                    <th colspan="2">Action</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr class="text-center">
+                        <td>@item.PurchaseId</td>
+                        <td>@item.ItemCode</td>
+                        <td>@item.ItemQty</td>
+                        <td>@item.ItemUnitId</td>
+                        <td>@item.ItemRate</td>
+
+
+                      
+                        <td>
+                            <a class="btn btn-sm btn-success" asp-controller="Purchase" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-danger" asp-controller="Purchase" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

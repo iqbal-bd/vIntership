@@ -6,7 +6,7 @@ namespace InventoryManagementSystem.Models
     {
         public long Id { get; set; }
         public long PurchaseId { get; set; }
-        [ForeignKey("PurchaaseId")]
+        [ForeignKey("PurchaseId")]
         public Header header { get; set; }
         public string ItemCode { get; set; }
         public string ItemQty { get; set; }

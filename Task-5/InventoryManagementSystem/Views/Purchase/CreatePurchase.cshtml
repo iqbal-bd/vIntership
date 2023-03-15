@@ -1,0 +1,53 @@
+﻿@model InventoryManagementSystem.Models.Detail
+
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="text-center text-info fw-bold ">Create New</h1>
+                    <p class="text-danger">@TempData["message"]</p>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="CreatePurchase">
+
+                        <div class="form-group">
+                        <label class="text-black fs-4" asp-for="PurchaseId">PurchaseId</label>
+                        <input type="text" asp-for="PurchaseId" class="form-control" placeholder="ItemCode" />
+                        <span asp-validation-for="PurchaseId" class="text-warning"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="text-black fs-4" asp-for="ItemCode">ItemCode</label>
+                            <input type="text" asp-for="ItemCode" class="form-control" placeholder="ItemCode" />
+                            <span asp-validation-for="ItemCode" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-black fs-4" asp-for="ItemQty">ItemQty</label>
+                            <input type="text" asp-for="ItemQty" class="form-control" placeholder="ItemQty" />
+                            <span asp-validation-for="ItemQty" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-black fs-4" asp-for="ItemUnitId">ItemUnitId</label>
+                            <input type="text" asp-for="ItemUnitId" class="form-control" placeholder="ItemUnitId" />
+                            <span asp-validation-for="ItemUnitId" class="text-warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-black fs-4" asp-for="ItemRate">ItemRate</label>
+                            <input type="text" asp-for="ItemRate" class="form-control" placeholder="ItemRate" />
+                            <span asp-validation-for="ItemRate" class="text-warning"></span>
+                        </div>
+
+
+                        <div class="form-group d-grid gap-2 col-4 mx-auto mt-3">
+                            <input type="submit" value="Submit" class="btn btn-sm btn-outline-success fw-bold fs-3" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

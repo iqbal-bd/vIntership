@@ -18,6 +18,10 @@ namespace InventoryManagementSystem.Controllers
             return View(result);
         }
 
+   
+
+        
+
         [HttpGet]
         public IActionResult Purchase() 
         {
