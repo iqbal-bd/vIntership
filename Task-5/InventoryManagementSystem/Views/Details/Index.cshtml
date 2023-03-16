@@ -3,14 +3,11 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
 <br />
 <div class="container">
     <div class="row">
-        <div class="col-8 offset-1">
-            <h1 class="text-center text-primary ">User Record</h1>
-            <a class="btn btn-sm btn-success text-white m-2" asp-controller="" asp-action="">Details</a>
+        <div >
+            <h1 class="text-center text-info ">Details Portal</h1>
             <p class="text-center text-success fs-3">@TempData["error"]</p>
             <table class="table table-bordered">
                 <tr class="text-center">
@@ -25,7 +22,6 @@
                     <th>ItemCode</th>
                     <th>ItemQty</th>
                     <th>ItemRate</th>
-                    <th colspan="3">Action</th>
                 </tr>
                 @foreach (var item in Model)
                 {
@@ -42,16 +38,6 @@
                         <td>@item.ItemQty</td>
                         <td>@item.ItemRate</td>
 
-
-                        <td>
-                            <a class="btn btn-sm btn-success" asp-controller="Detail" asp-action="Edit" asp-route-id="@item.Id">Details</a>
-                        </td>
-                        <td>
-                            <a class="btn btn-sm btn-success" asp-controller="Detail" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                        </td>
-                        <td>
-                            <a class="btn btn-sm btn-danger" asp-controller="Detail" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                        </td>
                     </tr>
                 }
             </table>
