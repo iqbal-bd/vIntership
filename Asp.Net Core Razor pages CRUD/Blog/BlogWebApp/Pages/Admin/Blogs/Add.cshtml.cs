@@ -21,7 +21,7 @@ namespace BlogWebApp.Pages.Admin.Blogs
         {
         }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
             var blogPost = new BlogPost()
             {
@@ -38,6 +38,8 @@ namespace BlogWebApp.Pages.Admin.Blogs
 
             blogDbContext.BlogPosts.Add(blogPost);
             blogDbContext.SaveChanges();
+
+            return RedirectToPage("/Admin/Blogs/List");
         }
     }
 }
