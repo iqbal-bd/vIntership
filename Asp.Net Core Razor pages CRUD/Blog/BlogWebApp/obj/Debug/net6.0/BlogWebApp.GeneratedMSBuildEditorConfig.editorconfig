@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\vIntership\Asp.Net Core Razor pages CRUD\Blog\BlogWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/vIntership/Asp.Net Core Razor pages CRUD/Blog/BlogWebApp/Pages/Admin/Blogs/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/vIntership/Asp.Net Core Razor pages CRUD/Blog/BlogWebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
