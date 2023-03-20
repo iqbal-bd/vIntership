@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using StudentProfileRestApi.Data;
 using StudentProfileRestApi.Models;
+using StudentProfileRestApi.Models.StudentDetails;
 
 namespace StudentProfileRestApi.Controllers
 {
@@ -8,14 +11,79 @@ namespace StudentProfileRestApi.Controllers
     public class StudentAPIController:ControllerBase
     {
         [HttpGet]
-        public IEnumerable<Student> GetStudents()
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public ActionResult<IEnumerable<StudentDetails>> GetStudents()
         {
-            return new List<Student>
-            {
-                new Student { Id = 1,Name = "Kamran",Role = 101,Phone=01722233445},
-                new Student { Id = 2,Name = "Ashraf",Role = 102,Phone=01344455666}
-            };
+            return Ok(StudentStore.studentList);
         }
 
+        [HttpGet("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentDetails> GetStudentId(int id)
+        {
+            if(id == 0)
+            {
+                return BadRequest();
+            }
+            var student = StudentStore.studentList.FirstOrDefault(u => u.Id == id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return Ok(student);
+        }
+
+        [HttpGet(":name")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentDetails> GetStudentName(string name)
+        {
+ 
+            var student = StudentStore.studentList.FirstOrDefault(u => u.Name.ToLower() == name.ToLower());
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return Ok(student);
+        }
+
+        [HttpGet("role/:role")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentDetails> GetStudentByRole(int role)
+        {
+            if (role == 0)
+            {
+                return BadRequest();
+            }
+            var student = StudentStore.studentList.FirstOrDefault(u => u.Role == role);
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return Ok(student);
+        }
+
+        [HttpGet("name/:name/phone/:phone")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentDetails> GetStudentByPhone(int phone)
+        {
+            if (phone == 0)
+            {
+                return BadRequest();
+            }
+            var student = StudentStore.studentList.FirstOrDefault(u => u.Phone == phone);
+            if (student == null)
+            {
+                return NotFound();
+            }
+            return Ok(student);
+        }
     }
 }
