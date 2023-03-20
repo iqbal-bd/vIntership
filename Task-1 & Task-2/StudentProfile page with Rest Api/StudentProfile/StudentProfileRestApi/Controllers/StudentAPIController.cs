@@ -85,5 +85,62 @@ namespace StudentProfileRestApi.Controllers
             }
             return Ok(student);
         }
+
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<StudentDetails> CreateStudent([FromBody]StudentDetails studentDetails)
+        {
+            if(studentDetails == null)
+            {
+                return BadRequest(studentDetails);
+            }
+            if (studentDetails.Id > 0)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+            studentDetails.Id = StudentStore.studentList.OrderByDescending(u => u.Id).FirstOrDefault().Id + 1;
+            StudentStore.studentList.Add(studentDetails);
+
+            return Ok(studentDetails);
+        }
+
+
+        [HttpDelete("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<StudentDetails> DeleteStudent(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            var student = StudentStore.studentList.FirstOrDefault(u => u.Id == id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            StudentStore.studentList.Remove(student);
+            return NoContent();
+        }
+
+
+        [HttpPut("{id:int}")]
+        public ActionResult UpdateStudent(int id,[FromBody]StudentDetails studentDetails)
+        {
+            if (studentDetails == null || id != studentDetails.Id)
+            {
+                return BadRequest();
+            }
+            var student = StudentStore.studentList.FirstOrDefault(u => u.Id == id);
+            student.Name = studentDetails.Name;
+            student.Role = studentDetails.Role;
+            student.Phone = studentDetails.Phone;
+
+            return NoContent();
+        }
     }
 }
