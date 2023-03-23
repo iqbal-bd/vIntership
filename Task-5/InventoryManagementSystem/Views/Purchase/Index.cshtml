@@ -5,10 +5,10 @@
 <div class="container">
     <div class="row">
         <div class="col-8 offset-2">
-            <h1 class="text-center text-warning ">Items Record</h1>
-            <a class="btn btn-sm btn-success text-white m-2" asp-controller="Purchase" asp-action="CreatePurchase">Add Item</a>
+            <h1 class="text-center text-warning ">Purchase-Items Record</h1>
+            <a class="btn btn-sm btn-warning text-black fw-bold m-2" asp-controller="Purchase" asp-action="CreatePurchase">Add Purchase-Items</a>
             <p class="text-center text-success fs-3">@TempData["error"]</p>
-            <table class="table table-bordered">
+            <table class="table table-bordered table table-striped table-hover">
                 <tr class="text-center">
                     <th>PurchaseId</th>
                     <th>ItemCode</th>
@@ -20,7 +20,7 @@
                 @foreach (var item in Model)
                 {
                     <tr class="text-center">
-                        <td>@item.PurchaseId</td>
+                        <th>@item.PurchaseId</th>
                         <td>@item.ItemCode</td>
                         <td>@item.ItemQty</td>
                         <td>@item.ItemUnitId</td>
