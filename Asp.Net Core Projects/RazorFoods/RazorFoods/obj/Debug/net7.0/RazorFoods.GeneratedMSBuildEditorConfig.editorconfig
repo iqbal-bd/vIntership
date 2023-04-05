@@ -16,12 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\vIntership\Asp.Net Core Projects\RazorFoods\RazorFoods
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Checkout/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Checkout/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRcVGhhbmtZb3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Forms/CustomPizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXNcQ3VzdG9tUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Pizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl6emEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/vIntership/Asp.Net Core Projects/RazorFoods/RazorFoods/Pages/Privacy.cshtml]

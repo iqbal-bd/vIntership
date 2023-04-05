@@ -13,6 +13,58 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\PizzaTime.jpg",
+      "PackagePath": "staticwebassets\\images\\PizzaTime.jpg"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Bolognese.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Bolognese.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Carbonara.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Carbonara.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Create.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Create.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Create.zip",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Create.zip"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Create\\Create.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Create\\Create.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Hawaiian.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Hawaiian.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Margerita.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Margerita.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\MeatFeast.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\MeatFeast.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Mushroom.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Mushroom.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Pepperoni.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Pepperoni.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Seafood.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Seafood.png"
+    },
+    {
+      "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\images\\Pizzas\\Vegetarian.png",
+      "PackagePath": "staticwebassets\\images\\Pizzas\\Vegetarian.png"
+    },
+    {
       "Id": "D:\\vIntership\\Asp.Net Core Projects\\RazorFoods\\RazorFoods\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
