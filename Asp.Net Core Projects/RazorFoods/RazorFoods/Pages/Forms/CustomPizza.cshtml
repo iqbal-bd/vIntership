@@ -2,4 +2,31 @@
 @model RazorFoods.Pages.Forms.CustomPizzaModel
 @{
 }
-<h1 class="text-success">This is pizza maker panel</h1>
+
+
+<div class="text-center container">
+    <h1>Create Your Own Pizza!</h1>
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-5 bg-light col-4">
+        <input type="text" asp-for="Pizza.PizzaName" placeholder="Give your pizza name.." />
+        <br />
+        <input type="checkbox" asp-for="Pizza.TomatoSauce" placeholder="Tomato Sauce" /> Tomato Sauce
+        <br />
+        <input type="checkbox" asp-for="Pizza.TomatoSauce" placeholder="Tomato Sauce" /> Tomato Sauce
+        <br />
+        <input type="checkbox" asp-for="Pizza.Cheese" placeholder="Cheese" /> Cheese
+        <br />
+        <input type="checkbox" asp-for="Pizza.Peperoni" placeholder="Peperoni" /> Peperoni
+        <br />
+        <input type="checkbox" asp-for="Pizza.Ham" placeholder="Ham" /> Ham
+        <br />
+        <input type="checkbox" asp-for="Pizza.Mushroom" placeholder="Mushroom" /> Mushroom
+        <br />
+        <input type="checkbox" asp-for="Pizza.Tuna" placeholder="Tuna" /> Tuna
+        <br />
+        <input type="checkbox" asp-for="Pizza.beef" placeholder="beef" /> beef
+        <br />
+        <input type="checkbox" asp-for="Pizza.Pineapple" placeholder="Pineapple" /> pineapple
+        <br />
+        <button class="btn btn-primary mt-2" type="submit">Order My Pizza</button>
+    </form>
+</div>
