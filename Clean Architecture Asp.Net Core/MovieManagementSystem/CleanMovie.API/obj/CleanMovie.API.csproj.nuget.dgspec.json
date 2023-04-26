@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.API\\CleanMovie.API.csproj": {}
+  },
+  "projects": {
+    "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.API\\CleanMovie.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.API\\CleanMovie.API.csproj",
+        "projectName": "CleanMovie.API",
+        "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.API\\CleanMovie.API.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj": {
+                "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj"
+              },
+              "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj": {
+                "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj",
+        "projectName": "CleanMovie.Application",
+        "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Domain\\CleanMovie.Domain.csproj": {
+                "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Domain\\CleanMovie.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Domain\\CleanMovie.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Domain\\CleanMovie.Domain.csproj",
+        "projectName": "CleanMovie.Domain",
+        "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Domain\\CleanMovie.Domain.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
+        "projectName": "CleanMovie.Infrastructure",
+        "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj": {
+                "projectPath": "D:\\vIntership\\Clean Architecture Asp.Net Core\\MovieManagementSystem\\CleanMovie.Application\\CleanMovie.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

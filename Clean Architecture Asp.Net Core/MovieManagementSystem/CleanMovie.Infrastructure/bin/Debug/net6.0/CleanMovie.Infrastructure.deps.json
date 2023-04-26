@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CleanMovie.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CleanMovie.Application": "1.0.0"
+        },
+        "runtime": {
+          "CleanMovie.Infrastructure.dll": {}
+        }
+      },
+      "CleanMovie.Application/1.0.0": {
+        "dependencies": {
+          "CleanMovie.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanMovie.Application.dll": {}
+        }
+      },
+      "CleanMovie.Domain/1.0.0": {
+        "runtime": {
+          "CleanMovie.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanMovie.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanMovie.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanMovie.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
