@@ -1,0 +1,107 @@
+﻿@page "{id:min(1)?}/{handler?}"
+@model EmployeeProject.Pages.Employees.EditModel
+@{
+    ViewData["Title"] = "Edit";
+    var photoPath = "~/images/" + (Model.Employee.PhotoPath ?? "noimage.jpg");
+    var pageHeader = Model.Employee.Id > 0 ? "Edit" : "Create";
+}
+<h3 class="ms-5">Notification Bar</h3>  
+
+<form method="post" asp-page-handler="UpdateNotification">
+    <div class="form-check ms-5 m-2 ps-5 text-black">
+        <input asp-for="Notify" class="form-check-input" />
+        <label asp-for="Notify" class="form-check-label">Details Changed</label>
+    </div>
+    <button type="submit" class="btn btn-warning ms-5 m-2 ps-5">
+        Update Notification
+    </button>
+</form>
+<hr />
+
+<div class="container">
+ 
+    <form method="post" class="bg-info ms-5 m-5 ps-5"
+          enctype="multipart/form-data" asp-page-handler="OnPost">
+        <h1 class="text-center text-white p-3">@pageHeader</h1>
+        <input hidden asp-for="Employee.Id" />
+        <input hidden asp-for="Employee.PhotoPath" />
+
+
+        <div class="form-group row m-2">
+            <lable asp-for="Employee.FirstName" class="col-sm-2 col-form-label fw-bold">FirstName</lable>
+            <div class="col-sm-8 ">
+                <input asp-for="Employee.FirstName" class="form-control" placeholder="FirstName" />
+                <span asp-validation-for="Employee.FirstName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row m-2">
+            <lable asp-for="Employee.LastName" class="col-sm-2 col-form-label fw-bold">LastName</lable>
+            <div class="col-sm-8">
+                <input asp-for="Employee.LastName" class="form-control" placeholder="LastName" />
+                <span asp-validation-for="Employee.LastName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row m-2">
+            <lable asp-for="Employee.Email" class="col-sm-2 col-form-label fw-bold">EmailAddress</lable>
+            <div class="col-sm-8">
+                <input asp-for="Employee.Email" class="form-control" placeholder="Email" />
+                <span asp-validation-for="Employee.Email" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row m-2">
+            <lable asp-for="Employee.Department" class="col-sm-2 col-form-label fw-bold">Department</lable>
+            <span asp-validation-for="Employee.Department" class="text-danger"></span>
+            <div class="col-sm-8">
+                <select asp-for="Employee.Department" class="custom-select mr-sm-2"
+                        asp-items="Html.GetEnumSelectList<Dept>()">
+                    <option value="">Please Select</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row m-2">
+            <lable asp-for="Employee.EnrollmentDate" class="col-sm-2 col-form-label fw-bold">EnrollmentDate</lable>
+            <div class="col-sm-8">
+                <input asp-for="Employee.EnrollmentDate" class="form-control" placeholder="EnrollmentDate" />
+                <span asp-validation-for="Employee.EnrollmentDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row m-2">
+            <label asp-for="Photo" class="col-sm-2 col-form-label fw-bold"></label>
+            <div class="col-sm-8">
+                <div class="custom-file">
+                    <input asp-for="Photo" class="custom-file-input form-control">
+                    <label class="custom-file-label">Click here to change photo</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row col-sm-4 offset-4">
+            <img class="imageThumbnail" src="@photoPath" asp-append-version="true" />
+        </div>
+
+        <div class="form-group row d-flex justify-content-center">
+            <div class="col-sm-8">
+                <button type="submit" class="btn btn-success m-5">Save</button>
+                <a asp-page="/Employees/Index" class="btn btn-warning m-5">Cancel</a>
+            </div>
+        </div>
+
+        @section Scripts {
+            <script>
+                $('.cumtom-file-input').on("change",function(){
+                    var fileName = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(fileName);
+                });
+            </script>
+
+            <partial name="_ValidationScriptsPartial" />
+        }
+
+       
+    </form>
+</div>

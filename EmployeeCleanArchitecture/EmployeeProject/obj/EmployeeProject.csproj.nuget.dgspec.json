@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject\\EmployeeProject.csproj": {}
+  },
+  "projects": {
+    "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj",
+        "projectName": "EmployeeProject.Model",
+        "projectPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Services\\EmployeeProject.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Services\\EmployeeProject.Services.csproj",
+        "projectName": "EmployeeProject.Services",
+        "projectPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Services\\EmployeeProject.Services.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj": {
+                "projectPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject\\EmployeeProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject\\EmployeeProject.csproj",
+        "projectName": "EmployeeProject",
+        "projectPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject\\EmployeeProject.csproj",
+        "packagesPath": "C:\\Users\\iqbal\\.nuget\\packages\\",
+        "outputPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj": {
+                "projectPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Model\\EmployeeProject.Model.csproj"
+              },
+              "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Services\\EmployeeProject.Services.csproj": {
+                "projectPath": "D:\\vIntership\\EmployeeCleanArchitecture\\EmployeeProject.Services\\EmployeeProject.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\bin\Debug\net6.0\EmployeeProject.Model.deps.json
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\bin\Debug\net6.0\EmployeeProject.Model.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\bin\Debug\net6.0\EmployeeProject.Model.pdb
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.csproj.AssemblyReference.cache
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.AssemblyInfoInputs.cache
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.AssemblyInfo.cs
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.csproj.CoreCompileInputs.cache
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\refint\EmployeeProject.Model.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\EmployeeProject.Model.pdb
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Model\obj\Debug\net6.0\ref\EmployeeProject.Model.dll

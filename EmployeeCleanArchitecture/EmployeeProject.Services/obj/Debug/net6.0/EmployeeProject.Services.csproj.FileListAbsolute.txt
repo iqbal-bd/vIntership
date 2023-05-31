@@ -1,0 +1,15 @@
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\bin\Debug\net6.0\EmployeeProject.Services.deps.json
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\bin\Debug\net6.0\EmployeeProject.Services.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\bin\Debug\net6.0\EmployeeProject.Services.pdb
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\bin\Debug\net6.0\EmployeeProject.Model.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\bin\Debug\net6.0\EmployeeProject.Model.pdb
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.csproj.AssemblyReference.cache
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.AssemblyInfoInputs.cache
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.AssemblyInfo.cs
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.csproj.CoreCompileInputs.cache
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.csproj.CopyComplete
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\refint\EmployeeProject.Services.dll
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\EmployeeProject.Services.pdb
+D:\vIntership\EmployeeCleanArchitecture\EmployeeProject.Services\obj\Debug\net6.0\ref\EmployeeProject.Services.dll

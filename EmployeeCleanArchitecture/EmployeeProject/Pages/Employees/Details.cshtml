@@ -1,0 +1,40 @@
+﻿@page
+@model EmployeeProject.Pages.Employees.DetailsModel
+@{
+    var photoPath = "~/images/" + (Model.Employee.PhotoPath ?? "no_image.png");
+}
+
+<div class="row justify-content-center m-3">
+    @if (Model.Message !=null)
+    {
+        <div class=" alert alert-primary ms-5 ps-5">
+            @Model.Message
+        </div>
+    }
+    <hr />
+    <div class="col-sm-6">
+        <div class="card bg-secondary">
+
+            <div class="card-header text-center text-white bg-info">
+                <h4>@Model.Employee.FullName</h4>
+            </div>
+
+            <div class="card-body text-start text-white">
+                <img class="card-img-top imageThumbnail mb-3" src="@photoPath" asp-append-version="true" />
+                <h5>ID: @Model.Employee.Id</h5>
+                <h5>First-Name: @Model.Employee.FirstName</h5>
+                <h5>Last-Name: @Model.Employee.LastName</h5>
+                <h5>Email-Address: @Model.Employee.Email</h5>
+                <h5>Department: @Model.Employee.Department</h5>
+                <h5>Started-job: @Model.Employee.EnrollmentDate</h5>
+            </div>
+            
+
+            <div class="card-footer text-center bg-info">
+                <a asp-page="index" class="btn btn-light m-1">Back</a>
+                <a href="#" class="btn btn-warning m-1">Edit</a>
+                <a href="#" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
