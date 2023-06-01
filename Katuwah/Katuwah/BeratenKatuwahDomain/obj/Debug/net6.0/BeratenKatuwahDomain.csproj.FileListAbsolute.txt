@@ -1,0 +1,78 @@
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.deps.json
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.dll
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.pdb
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\CommonLib.dll
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\CommonLib.pdb
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.AssemblyReference.cache
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfoInputs.cache
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfo.cs
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CopyComplete
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.dll
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\refint\BeratenKatuwahDomain.dll
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.pdb
+C:\Users\user\Source\Workspaces\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\ref\BeratenKatuwahDomain.dll
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.deps.json
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.dll
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.pdb
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\CommonLib.dll
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\CommonLib.pdb
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.AssemblyReference.cache
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfoInputs.cache
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfo.cs
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CoreCompileInputs.cache
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CopyComplete
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.dll
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\refint\BeratenKatuwahDomain.dll
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.pdb
+D:\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\ref\BeratenKatuwahDomain.dll
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.dll
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\refint\BeratenKatuwahDomain.dll
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.pdb
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfo.cs
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.deps.json
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.dll
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.pdb
+C:\Users\user\Desktop\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\ref\BeratenKatuwahDomain.dll
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.deps.json
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.dll
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.pdb
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.AssemblyReference.cache
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfoInputs.cache
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfo.cs
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CoreCompileInputs.cache
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.dll
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\refint\BeratenKatuwahDomain.dll
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.pdb
+C:\Users\iqbal\Downloads\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\ref\BeratenKatuwahDomain.dll
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.deps.json
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.dll
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.pdb
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.AssemblyReference.cache
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfoInputs.cache
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfo.cs
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CoreCompileInputs.cache
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.dll
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\refint\BeratenKatuwahDomain.dll
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.pdb
+D:\vIntership\Asp.Net Core Projects\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\ref\BeratenKatuwahDomain.dll
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.deps.json
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.dll
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\bin\Debug\net6.0\BeratenKatuwahDomain.pdb
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.AssemblyReference.cache
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfoInputs.cache
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.AssemblyInfo.cs
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.csproj.CoreCompileInputs.cache
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.dll
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\refint\BeratenKatuwahDomain.dll
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\BeratenKatuwahDomain.pdb
+D:\vIntership\Katuwah\Katuwah\BeratenKatuwahDomain\obj\Debug\net6.0\ref\BeratenKatuwahDomain.dll

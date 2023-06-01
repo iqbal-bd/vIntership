@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Telerik.UI.for.AspNet.Core.Trial" Version="2023.1.314" />
+	</ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\BeratenKatuwahDomain\BeratenKatuwahDomain.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="DbModel\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿@page "{id:min(1)}"
+@model Purchase.Pages.Employee.EditEmployeeModel
+@{
+}
+
+
+<div class="card dataForm">
+    <form method="post">
+        @*<input hidden asp-for="EmployeeModel.Id" />*@
+        <partial name="_EmployeePartial.cshtml" model="Model.EmployeeModel" />
+    </form>
+</div>
+

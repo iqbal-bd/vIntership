@@ -1,0 +1,15 @@
+﻿@page "{id}"
+@model Purchase.Pages.Employee.DeleteModel
+@{
+}
+
+<h1>Delete Confirmation</h1>
+
+<div class ="alert alert-danger">
+    <h4>Are you sure want to delete employee - @Model.EmployeeModel.FirstName</h4>
+
+    <form method ="post">
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a class=" btn btn-warning" asp-page="/Employee/EmployeeList">No</a>
+    </form>
+</div>

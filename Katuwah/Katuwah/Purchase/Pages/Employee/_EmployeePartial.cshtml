@@ -1,0 +1,27 @@
+﻿@model BeratenKatuwahDomain.Employee.EmployeeModel
+
+
+<input asp-for="Id" type="hidden" value="0" />
+
+    <div class="row">
+        <div class="col-8 offset-3">
+            <div class="card-body">
+                <div class="col-sm-8 m-2 p-2">
+                    <lable>First Name</lable>
+                    <input type="text" class="form-control" asp-for="FirstName" placeholder="first name" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="col-sm-8 m-2 p-2">
+                    <lable>Last Name</lable>
+                    <input type="text" class="form-control" asp-for="LastName" placeholder="last name"/>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group d-grid gap-2 col-4 mx-auto mt-3" >
+                    <input type="submit" value="save" class="btn btn-success" />
+                </div>
+            </div>    
+        </div>
+    </div>
+
+<partial name="_ValidationScriptsPartial" />

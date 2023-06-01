@@ -1,0 +1,35 @@
+﻿@page
+@using Kendo.Mvc.UI;
+@model Purchase.Pages.Employee.EmployeeListModel
+@{
+}
+
+<div class="card">
+    <div class="card-header">
+       <h2>Employee List</h2>
+        <h3 class="text-center text-success fs-3">@TempData["Message"]</h3>
+    </div>
+
+
+
+    @(
+        Html.Kendo().Grid(Model.EmployeeList)
+                    .Name("grid")
+                    .Columns(columns =>
+                    {
+                        columns.Bound(c => c.FirstName).Title("First Name").HeaderHtmlAttributes(new { @style = "font-weight:bold;" });
+                        columns.Bound(c => c.LastName).Title("Last Name").HeaderHtmlAttributes(new { @style = "font-weight:bold;" });
+
+                        columns.Template("<a Id='a-pretend-button' href='EditEmployee/#=Id#'>Edit</a>");
+                        columns.Template("<a Id='a-pretend-button' href='DeleteEmployee/#=Id#'>Delete</a>");
+                        
+
+            })
+
+
+        .ToolBar(toolbar => toolbar.Search())
+        .Pageable(pageable => pageable.ButtonCount(8))
+        .Navigatable()
+
+        )
+</div>
